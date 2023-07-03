@@ -30,7 +30,7 @@ curl --location --request PUT 'localhost:3000/api/blogs/64a27bff55637b45c177b898
 Curl for get blogs By Id(Use valid MongoId), 
 curl --location 'localhost:3000/api/blogs/64a27bff55637b45c177b898'
 
-Curl for get All blogs,
+Curl for get All blogs,(sortBy can be createdAt or name)
 curl --location 'localhost:3000/api/blogs?category=philosophy&sortBy=name'
 
 Curl for delete blogs, 
