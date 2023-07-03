@@ -4,7 +4,8 @@
   "description": "[![N|Solid](https://iili.io/Hi9giog.png)](https://www.enverx.com/)",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "development": "node app.js"
   },
   "keywords": [],
   "author": "",
